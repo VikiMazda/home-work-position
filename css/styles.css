@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    border: none;
+}
+
+body {
+    position: relative;
+    background-image: url('../images/f.png');
+    background-size: cover;
+    z-index: 1;
+    border-top: solid 40px #af2024;
+
+}
+
+section.container {
+    max-width: 961px;
+    margin: auto;
+    position: relative;
+    top: 60px;
+
+}
+
+section.container .block {
+    background-color: white;
+    margin: auto;
+    max-width: 710px;
+    position: relative;
+    top: 35px;
+    z-index: 2;
+
+}
+
+section h1 {
+    background-color: #af2024;
+    margin: auto;
+    color: white;
+    text-align: left;
+    padding-left: 18px;
+    font: 20px 'Arvo', serif;
+    line-height: 70px;
+
+}
+
+section.container .video {
+    width: 567px;
+    height: 347px;
+    background-color: #e7e7e7;
+    text-align: center;
+    position: relative;
+    margin: 32px 72px;
+}
+
+.d6 {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 50px solid #af2024;
+    border-bottom: 25px solid transparent;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+}
+
+.text {
+    max-width: 567px;
+    margin: auto;
+}
+
+section .text .colortext {
+    color: #af2024;
+    font: 13px 'Arvo', serif;
+}
+
+section .text .colortext:after {
+    content: " - June 26, 2013";
+    color: #7d7d7d;
+    font: 12px/22px 'Arvo', serif;
+}
+
+section .text p {
+    color: #98161b;
+    font: 12px/22px 'Arvo', serif;
+    display: block;
+    padding-bottom: 130px;
+}
+
+section .text p:before {
+    content: ".........";
+    display: block;
+    padding: 7px 0 14px;
+}
+
+.bg-blaсk {
+    border-top: solid 33px #3f0002;
+    background-color: black;
+    height: 455px;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+
+}
+
+.icons {
+    position: fixed;
+    right: 0;
+    top: 265px;
+    z-index: 3;
+}
+
+.icons a {
+    display: block;
+    width: 50px;
+    line-height: 50px;
+    color: white;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.soc_fb {
+    float: right;
+    line-height: 50px;
+    min-width: 50px;
+    background-color: #850409;
+
+}
+
+.soc_tw {
+
+    line-height: 50px;
+    min-width: 50px;
+    background-color: #98161b;
+}
+.attempt_1{
+    background-color: indigo;
+    max-width: 300px;
+    min-height: 300px;
+
+}
