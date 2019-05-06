@@ -158,3 +158,8 @@ section .text p:before {
     min-height: 300px;
 
 }
+.attempt_2{
+    background-color: black;
+    max-width: 400px;
+    min-height: 200px;
+}
