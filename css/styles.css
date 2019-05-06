@@ -162,6 +162,7 @@ section .text p:before {
     background-color: black;
     max-width: 400px;
     min-height: 200px;
+    background-color: aqua;
 }
 .at.text{
     line-height: 30px;
