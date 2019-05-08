@@ -72,7 +72,6 @@ section.container .block {
 }
 
 section h1 {
-    background-color: #af2024;
     margin: auto;
     color: white;
     text-align: left;
@@ -82,13 +81,21 @@ section h1 {
 
 }
 
+.block_video {
+    max-width: 567px;
+    line-height: 347px;
+    text-align: center;
+    margin: auto;
+}
+
 section.container .video {
-    width: 567px;
     height: 347px;
     background-color: #e7e7e7;
     text-align: center;
     position: relative;
-    margin: 32px 72px;
+    margin: 32px 0;
+    display: block;
+    width: 100%
 }
 
 .d6 {
