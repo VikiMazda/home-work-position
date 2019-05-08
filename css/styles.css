@@ -22,11 +22,22 @@ img {
 }
 
 body {
+
+}
+
+.bg-img {
     position: relative;
     background-image: url('../images/f.png');
     background-size: cover;
     z-index: 1;
     border-top: solid 40px #af2024;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-repeat: repeat-y;
+    background-position: center
 
 }
 
@@ -38,13 +49,25 @@ section.container {
 
 }
 
+.logo {
+    max-width: 352px;
+}
+
+.logo img {
+    display: block;
+    width: 100%
+}
+
 section.container .block {
     background-color: white;
     margin: auto;
     max-width: 710px;
+    line-height: 753px;
     position: relative;
     top: 35px;
-    z-index: 2;
+    z-index: 3;
+    padding-bottom: 130px;
+    width: 100%;
 
 }
 
@@ -102,6 +125,7 @@ section .text p {
     font: 12px/22px 'Arvo', serif;
     display: block;
     padding-bottom: 130px;
+
 }
 
 section .text p:before {
@@ -117,6 +141,7 @@ section .text p:before {
     z-index: 1;
     position: relative;
     width: 100%;
+
 
 }
 
@@ -147,25 +172,7 @@ section .text p:before {
 }
 
 .soc_tw {
-
     line-height: 50px;
     min-width: 50px;
     background-color: #98161b;
-}
-.attempt_1{
-    background-color: indigo;
-    max-width: 300px;
-    min-height: 300px;
-
-}
-.attempt_2{
-    background-color: black;
-    max-width: 400px;
-    min-height: 200px;
-    background-color: aqua;
-}
-.at.text{
-    line-height: 30px;
-    color: yellow;
-    background-color: cyan;
 }
